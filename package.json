@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-inspector": "^4.1.0",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^38.1.1",
+    "axios": "^1.4.0",
+    "file-saver": "^2.0.5",
+    "filepond": "^4.30.4",
+    "jquery-filepond": "^1.0.0",
+    "tinymce": "^6.6.0",
+    "xlsx": "^0.18.5"
+  },
+  "name": "y",
+  "description": "check: composer <br>\r check: node moudel <br>\r check: env <br>",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/giiabao2002/auca-laravel-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/giiabao2002/auca-laravel-project/issues"
+  },
+  "homepage": "https://gitlab.com/giiabao2002/auca-laravel-project#readme"
+}
